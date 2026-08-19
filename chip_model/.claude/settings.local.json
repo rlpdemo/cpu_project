@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import torch; print\\('torch', torch.__version__\\)\")",
+      "Bash(python3 -c \"import torch_mlir; print\\('torch_mlir ok'\\)\")",
+      "Read(//home/us/llvm-mlir-install/bin/**)",
+      "Read(//home/us/**)",
+      "Read(//home/us/Desktop/ws/**)",
+      "Read(//usr/bin/**)",
+      "Bash(python3 -c \"print\\(1\\)\")",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)"
+    ]
+  }
+}
